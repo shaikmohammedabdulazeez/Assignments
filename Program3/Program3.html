@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form input controls</title>
+    <Style>
+        input[type=range]::-webkit-search-decoration {
+            color: blue;
+        }
+    </Style>
+    
+</head>
+<body>
+    <h1>Form Input Controls Example</h1>
+    <form action="" method="get">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" name="name" id="name">
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="Enter your password" name="pwd" id="pwd">
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" placeholder="Enter your email" name="email" id="email">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="18" max="99" value="18">
+        <label for="rating">Rating:</label>
+        <input  type="range" name="rating" id="rating" >
+        <label for="dob">Date of Birth:</label>
+        <br>
+        <input type="date" name="dob" id="dob" >
+        <label for="Time">Time:</label>
+        <input type="time" name="Time" id="Time">
+        <label for="img">Image:</label>
+        <input type="image" src="./img.png" alt="image" width="150px" height="50">
+        <br>
+        <br>
+        <label for="week">Week</label>
+        <input type="week" name="week" id="week">
+        <br>
+        <br>
+        <label for="month">Month:</label>
+        <input type="month" name="month" id="month">
+        <br>
+        <br>
+        <label for="datetime-local">Datetime-Local:</label>
+        <input type="datetime-local" name="date" id="datetime-local">
+        <br>
+        <br>
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <br>
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search">
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <br>
+        <input type="radio" name="male" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <label for="interests">Interests:</label>
+        <br>
+        <br>
+        <input type="checkbox" name="reading" id="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" name="sports" id="sports" checked>
+        <label for="sports">Sports</label>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="United States">United States</option>
+            <option value="India">India</option>
+        </select>
+        <label for="msg">Message:</label>
+        <br>
+        <br>
+        <textarea name="msg" id="" cols="50" rows="5" placeholder="Enter your message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
