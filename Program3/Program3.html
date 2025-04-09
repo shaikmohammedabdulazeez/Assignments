@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form input controls</title>
     <Style>
-        input[type=range]::-webkit-search-decoration {
-            color: blue;
-        }
+       /* #reading{
+        accent-color:  rgb(59, 108, 255);
+       }
+       #sports{
+        accent-color:  rgb(59, 108, 255);
+       }
+       #male{
+        accent-color:  rgb(59, 108, 255);
+       }
+       #female{
+        accent-color:  rgb(59, 108, 255);
+       }
+       #rating{
+        accent-color:  rgb(59, 108, 255);      
+       } */
+       *{
+        accent-color: rgb(59, 108, 255);
+       }
+       
     </Style>
     
 </head>
@@ -17,7 +33,7 @@
         <label for="name">Name:</label>
         <input type="text" placeholder="Enter your name" name="name" id="name">
         <label for="pwd">Password:</label>
-        <input type="password" placeholder="Enter your password" name="pwd" id="pwd">
+        <input type="password" placeholder="Enter your password" name="pwd" id="pwd" required>
         <label for="email">Email:</label>
         <br>
         <input type="email" placeholder="Enter your email" name="email" id="email">
@@ -27,9 +43,9 @@
         <input  type="range" name="rating" id="rating" >
         <label for="dob">Date of Birth:</label>
         <br>
-        <input type="date" name="dob" id="dob" >
+        <input type="date" name="dob" id="dob" value="2000-01-01">
         <label for="Time">Time:</label>
-        <input type="time" name="Time" id="Time">
+        <input type="time" name="Time" id="Time" value="12:00">
         <label for="img">Image:</label>
         <input type="image" src="./img.png" alt="image" width="150px" height="50">
         <br>
@@ -57,9 +73,9 @@
         <label for="gender">Gender:</label>
         <br>
         <br>
-        <input type="radio" name="male" id="male" value="male" checked>
+        <input  type="radio" name="gender" id="male" value="male" checked>
         <label for="male">Male</label>
-        <input type="radio" name="female" id="female" value="female">
+        <input type="radio" name="gender" id="female" value="female">
         <label for="female">Female</label>
         <br>
         <br>
