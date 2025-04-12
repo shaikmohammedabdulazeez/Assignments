@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.parent{    
+
+            height: 100%;
+            width: 100%;
+           background-image: linear-gradient(to right,rgb(250, 120, 149),rgb(113, 21, 184)); 
+           border: 2px solid black;
+}
+.child1{
+    padding: 75px 5px 5px 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+  .main{
+     display: flex;
+        height: 200px;
+        width: 200px;
+        background-image: linear-gradient(to bottom right,rgb(243, 196, 9),rgb(246, 75, 7));
+        border: 2px solid black;
+    } 
+ .box{
+    background-image: linear-gradient(to bottom right,rgb(107, 193, 247),rgb(4, 4, 120));
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+   }
+   .first{
+    justify-content: flex-start;
+   }
+   .second{
+    justify-content: center;
+   }
+   .third{
+    justify-content: flex-end;
+   }
+   .four{
+    justify-content: space-around;
+   }
+   .five{
+    justify-content: space-between;
+   }
+   .six{
+    justify-content: space-around;
+   }
+   .seven{
+    justify-content: flex-start;
+   }
+
+
+
+
+   .child2{
+    padding: 200px 10px 75px 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    }
+  .inner{
+       display: flex;
+        height: 200px;
+        width: 200px;
+        background-image: linear-gradient(to bottom right,rgb(243, 196, 9),rgb(246, 75, 7));
+        border: 2px solid black;
+    }
+    .eight{
+        justify-content: flex-start;
+        align-items: center;
+    } 
+    .nine{
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .ten{
+        justify-content: center;
+        align-items: center;
+    }
+    .eleven{
+        justify-content: center;
+        align-items: end;
+    }
+    
